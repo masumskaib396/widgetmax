@@ -68,7 +68,41 @@ final class Widgetmax_Extension {
 	 *
 	*/
 	public function widgetmax_register_frontend_scripts(){
-		
+		wp_enqueue_style(
+			'widgetmax-addons-style',
+			WIDGETMAX_ASSETS_PUBLIC .'/css/widget-style.css',
+			null,WIDGETMAX_VERSION,
+		);
+
+		wp_enqueue_style(
+			'animate',
+			WIDGETMAX_ASSETS_PUBLIC .'/css/animate.css',
+			null,WIDGETMAX_VERSION,
+		);
+
+		wp_enqueue_script(
+			'widgetmax-addons-js',
+			WIDGETMAX_ASSETS_PUBLIC .'/js/widget.js',
+			['jquery'], WIDGETMAX_VERSION, true
+		);
+
+		wp_enqueue_script(
+			'waypoints',
+			WIDGETMAX_ASSETS_PUBLIC .'/js/jquery.waypoints.min.js',
+			['jquery'], WIDGETMAX_VERSION, true
+		);
+
+		wp_enqueue_script(
+			'progress-bar',
+			WIDGETMAX_ASSETS_PUBLIC .'/js/progress-bar-vendor.min.js',
+			['jquery'], WIDGETMAX_VERSION, true
+		);
+
+		wp_enqueue_script(
+			'typed',
+			WIDGETMAX_ASSETS_PUBLIC .'/js/typed.min.js',
+			['jquery'], WIDGETMAX_VERSION, true
+		);
 
 	}
 	
@@ -159,11 +193,14 @@ final class Widgetmax_Extension {
 		*/
 		require_once( WIDGETMAX_WIDGET_EXTENSIONS . 'custom-css.php' );
 
-	
 		//Include Widget files
 		require_once( WIDGETMAX_WIDGET_DIR . 'Button/widget.php' );
 		require_once( WIDGETMAX_WIDGET_DIR . 'ContactForm7/widget.php' );
+		require_once( WIDGETMAX_WIDGET_DIR . 'Breadcrumb/widget.php' );
+		require_once( WIDGETMAX_WIDGET_DIR . 'DualHeading/widget.php' );
+		require_once( WIDGETMAX_WIDGET_DIR . 'Pricing/widget.php' );
+		require_once( WIDGETMAX_WIDGET_DIR . 'AnimatedText/widget.php' );
+		require_once( WIDGETMAX_WIDGET_DIR . 'Progresbar/widget.php' );
 	}
 }
-
 Widgetmax_Extension::instance();

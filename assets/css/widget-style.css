@@ -5,6 +5,12 @@
 WIDGET STYLESHEET
 ----------------------------------
 BUTTON
+DUAL HEADING
+BREADCRUMB
+CONTACT FORM
+ANIMATED TEXT
+PRICING BOX
+PROGRESS BAR
 SIDEBAR WIDGET
 
 =============================================================--------------------------------------------------------------*/
@@ -277,5 +283,511 @@ CONTACT FORM
   position: absolute;
   top: 0;
   right: 0;
+}
+
+/*---------------------------------------------------
+DUAL HEADING
+----------------------------------------------------*/
+/*---------------------------------------------------
+DUAL HEADDING
+----------------------------------------------------*/
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper {
+  padding: 5px;
+}
+
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper .widgetmax-dual-heading-description {
+  line-height: 26px;
+  margin: 30px 0 0 0;
+  padding: 10px;
+  font-weight: 400;
+}
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper .widgetmax-dual-heading-icon {
+  display: inline-block;
+}
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper .widgetmax-dual-heading-icon i {
+  font-size: 36px;
+}
+
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper .widgetmax-dual-heading-title {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper .widgetmax-dual-heading-title {
+  font-size: 30px;
+  color: #132c47;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper .widgetmax-dual-heading-title .first-heading,
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper .widgetmax-dual-heading-title .second-heading {
+  padding: 15px 10px;
+}
+
+.widgetmax-dual-heading .widgetmax-dual-heading-wrapper .widgetmax-dual-heading-title span {
+  color: #132c47;
+}
+
+/*---------------------------------------------------
+BREADCRUMB
+----------------------------------------------------*/
+
+ul.widgetmax-breadcrumbs {
+	display: block;
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+}
+
+ul.widgetmax-breadcrumbs li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+ul.widgetmax-breadcrumbs li:last-child {
+	margin: 0;
+}
+
+ul.widgetmax-breadcrumbs li a,
+ul.widgetmax-breadcrumbs li span.widgetmax-breadcrumbs-text,
+ul.widgetmax-breadcrumbs li span.widgetmax-breadcrumbs-separator-icon {
+	display: block;
+}
+
+ul.widgetmax-breadcrumbs li span.widgetmax-breadcrumbs-text {
+	-webkit-transition: all .4s;
+	        transition: all .4s;
+}
+
+span.widgetmax-breadcrumbs-home-icon {
+	margin-right: 10px;
+}
+/*---------------------------------------------------
+ANIMATED TEXT
+----------------------------------------------------*/
+.morphext > .animated {
+  display: inline-block;
+}
+/* morphext style end*/
+
+.widgetmax-animated-text-align-left{
+  text-align: left;
+}
+
+.widgetmax-animated-text-align-center{
+  text-align: center;
+}
+
+.widgetmax-animated-text-align-right{
+  text-align: right;
+}
+
+.widgetmax-typed-strings{
+  margin: 0;
+}
+
+.widgetmax-animated-text-pre-heading,
+.widgetmax-animated-text-animated-heading,
+.widgetmax-animated-text-post-heading {
+	font-size: 30px;
+	font-weight: 600;
+}
+/*---------------------------------------------------
+/*---------------------------------------------------
+PRICING BOX
+----------------------------------------------------*/
+
+/* Pricing Menu Start */
+
+.widgetmax-pricing-list-wrapper.border_bottom .widgetmax-pricing-list-item:last-child {
+  border-bottom: none !important;
+}
+
+.widgetmax-pricing-list-item.yes{
+  display: flex;
+}
+
+.widgetmax-pricing-list-item-thumbnail{
+  overflow: hidden;
+}
+
+.widgetmax-pricing-list-item-thumbnail img{
+  height: 100% !important;
+  width: 100%;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+.widgetmax-pricing-title {
+  display: flex;
+  align-items: center;
+}
+.widgetmax-pricing-title .widgetmax-pricing-list-item-price {
+    margin-left: auto;
+}
+
+.widgetmax-pricing-list-item-content-title{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.widgetmax-pricing-list-item-content-description{
+  margin: 0;
+}
+
+.widgetmax-pricing-list-item-price span{
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.widgetmax-pricing-list-item-content-action{
+  display: inline-block;
+  transition: all .3s ease;
+}
+
+.widgetmax-pricing-list-item-content-conntector {
+  border-bottom: 1px dashed;
+  height: 1px;
+  flex-grow: 1;
+  align-self: center;
+  margin: 0 15px;
+}
+
+/* Pricing List End */
+/* Pricing Table Start */
+
+.left{
+  text-align: left;
+}
+
+.left .widgetmax-pricing-table-features li{
+  justify-content: flex-start;
+}
+
+.left .price-box{
+  margin-right: auto;
+}
+
+.center{
+  text-align: center;
+}
+
+.center.widgetmax-pricing-table-features li{
+  justify-content: center;
+}
+
+.center .price-box{
+  margin: 0 auto;
+}
+
+.right{
+  text-align: right;
+}
+
+.right .widgetmax-pricing-table-features li{
+  justify-content: flex-end;
+}
+
+.right .price-box{
+  margin-left: auto;
+}
+
+.widgetmax-pricing-table-header {
+  position: relative;
+  z-index: -1;
+}
+
+.widgetmax-pricing-table-header .widgetmax-pricing-table-header-curved svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.widgetmax-pricing-table-title{
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.widgetmax-pricing-table-subtitle{
+  margin: 0 0 10px 0;
+}
+
+.price-box{
+  position: relative;
+}
+.widgetmax-pricing-table-price{
+  position: relative;
+}
+.widgetmax-pricing-table-price.widgetmax-discount-price-yes{
+  display: inline-flex;
+  align-items: flex-end;
+}
+.widgetmax-pricing-table-price.widgetmax-discount-price-yes .widgetmax-pricing-table-regular-price{
+  text-decoration: line-through;
+  font-size: 20px;
+  color: #e5e5e5;
+  line-height: 2.1em;
+}
+.widgetmax-pricing-table-price svg{
+  position: absolute;
+}
+
+.widgetmax-pricing-table-wrapper .widgetmax-pricing-table-price p.widgetmax-pricing-table-new-price {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -3.2px;
+}
+
+.widgetmax-pricing-table-wrapper .widgetmax-pricing-table-price span.widgetmax-price-period {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+
+.widgetmax-pricing-table-price p{
+  margin: 0;
+}
+.price-box p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  width: 100%;
+}
+
+.widgetmax-pricing-table-features{
+  margin: 0;
+  padding: 0;
+}
+
+.widgetmax-pricing-table-features li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.list-border-bottom li:not(:last-child){
+  border-bottom: 1px solid #ff5985;
+}
+
+.widgetmax-pricing-table-features li .widgetmax-pricing-li-icon{
+  margin-right: 7px;
+}
+
+.widgetmax-pricing-table-action {
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  z-index: 1;
+  display: inline-block;
+}
+
+.widgetmax-pricing-table-badge-wrapper {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all .3s ease;
+}
+
+.widgetmax-pricing-table-wrapper{
+  transition: all .3s ease;
+}
+
+.widgetmax-pricing-table-wrapper.transition_top{
+  transition: all .3s ease;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+
+.widgetmax-pricing-table-wrapper.transition_top:hover{
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+}
+
+.widgetmax-pricing-table-wrapper.transition_bottom{
+  transition: all .3s ease;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+
+.widgetmax-pricing-table-wrapper.transition_bottom:hover{
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+}
+
+.widgetmax-pricing-table-wrapper.transition_zoom{
+  transition: all .3s ease;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+
+.widgetmax-pricing-table-wrapper.transition_zoom:hover{
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+}
+
+.widgetmax-pricing-table-wrapper .text-badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #13c83a;
+  padding: 13px 50px;
+  width: 160px;
+    text-align: center;
+  -webkit-transform: rotate(45deg) translate(40px, -22px);
+          transform: rotate(45deg) translate(40px, -22px);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.widgetmax-pricing-table-wrapper .icon-badge {
+  position: absolute;
+  padding: 15px 10px;
+  border-radius: 0 0 40px 40px;
+  background: #13c83a;
+  right: 30px;
+  top: 0;
+  z-index: 2;
+}
+
+.widgetmax-pricing-table-promo-label{
+  display: block;
+}
+.widgetmax-pricing-table-currency{
+  position: relative;
+}
+
+.widgetmax-pricing-table-price-subtitle{
+  display: block;
+}
+
+/*---------------------------------------------------
+PROGRESS BAR
+----------------------------------------------------*/
+.ldBar {
+  position:relative;
+}
+
+.ldBar.label-center > .ldBar-label {
+  position:absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  text-shadow:0 0 3px #ffffff;
+}
+
+.widgetmax-progress-bar .ldBar-label:after {
+  content:"%";display:inline; 
+  position: absolute;
+}
+
+.ldBar.no-percent .ldBar-label:after {
+  content:""
+}
+
+
+[class*="widgetmax-progress-bar-"].line {
+  position: relative;
+}
+
+[class*="widgetmax-progress-bar-"].line .ldBar-label {
+position: absolute;
+top: -12px;
+right: 0;
+}
+
+[class*="widgetmax-progress-bar-"].line-bubble {
+position: relative;
+}
+
+[class*="widgetmax-progress-bar-"].line-bubble .ldBar-label {
+position: absolute;
+left: 0;
+top: 0%;
+width: 50px;
+height: 50px;
+-webkit-transform: translate(-50%, 25%);
+transform: translate(-50%, 25%);
+background-color: #ccc;
+line-height: 27px;
+}
+
+[class*="widgetmax-progress-bar-"].circle {
+position: relative;
+}
+
+[class*="widgetmax-progress-bar-"].circle .ldBar-label {
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+[class*="widgetmax-progress-bar-"].circle h3 {
+position: absolute;
+bottom: -20px;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+
+[class*="widgetmax-progress-bar-"].fan {
+position: relative;
+}
+
+[class*="widgetmax-progress-bar-"].fan svg {
+margin-top: -40%;
+}
+
+[class*="widgetmax-progress-bar-"].fan h3 {
+position: absolute;
+bottom: -20px;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+}
+
+[class*="widgetmax-progress-bar-"].fan .ldBar-label {
+position: absolute;
+left: 50%;
+-webkit-transform: translate(-50%, -20%);
+transform: translate(-50%, -20%);
+font-size: 30px;
+bottom: 7%;
+}
+
+[class*="widgetmax-progress-bar-"].fan .left-title {
+position: absolute;
+left: 0;
+bottom: -10px;
+}
+
+[class*="widgetmax-progress-bar-"].fan .right-title {
+position: absolute;
+bottom: -10px;
+right: 0;
+}
+
+.widgetmax-progress-bar svg:not(:root) {
+overflow: hidden;
+height: inherit;
+}
+
+.widgetmax-progress-bar-title {
+font-size: 16px;
+font-weight: 600;
 }
 
