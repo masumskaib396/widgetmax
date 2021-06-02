@@ -23,9 +23,13 @@ Widgetmax For Elementor Helper Plugin
 == Available Widgets  ==
 * Creative Buttons
 * Contact Form 7 
+* Dual Heading
+* Progress Bar
+* Pricing Box
+* Animated Text
+* Breadcrumb
 
 </p>
-
 
 
 == Installation ==
