@@ -7,7 +7,7 @@ Tested up to: 5.7
 Requires PHP: 5.6
 License: GPl V2
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
-Stable tag: trunk
+Stable tag: 1.1
 
 
 == Description ==

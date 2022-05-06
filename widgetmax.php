@@ -4,7 +4,7 @@ Plugin Name: WidgetMax For Elementor
 Plugin URI: https://github.com/masumskaib396/widgetmax
 Description: The Widgetmax is an Elementor helping plugin that will make your designing work easier.
 Our specialities are custom CSS, Nested section, Contact form 7, Creative Buttons.
-Version: 1.0
+Version: 1.1
 Author: msakib
 Author URI: https://profiles.wordpress.org/msakib/
 License: GPLv2 or later
@@ -14,7 +14,7 @@ Text Domain: widgetmax
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
+//hellow world
 //Set plugin version constant.
 define( 'WIDGETMAX_VERSION', '1.1.1');
 /* Set constant path to the plugin directory. */
